@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+/*------------------------------------------------------------
+	Top page
+------------------------------------------------------------*/
+.main-background {
+  background: url("https://wallpapercave.com/wp/wp9116464.jpg") center;
+  background-size: cover;
+  width: 100vw;
+  min-height: 100vh;
+  padding-top: 30px;
+  overflow: hidden;
+}
+.box {
+  padding: 0
+}
+.form-label {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  background-color: cornsilk;
+  border-bottom: 2px solid black;
+}
+.form-control {
+  background-color: burlywood;
+  border: none;
+  height: calc(100vh - 170px);
+  border-radius: 0;
+}
+textarea:focus {
+  outline: none;  
+}
+code {
+  background: #fff;
+  display: inline-block;
+  padding: 3px;
+}
+pre code {
+  width: 100%;
+}
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  th, td {
+    padding: 0 10px;
+    border: 1px solid;
+  }
+}
+blockquote {
+  border-left: 3px solid black;
+  padding-left: 15px;
+}
+#preview {
+  overflow-y: scroll;
+  img {
+    width: 100%;
+  }
+}
+.copyright {
+  color: #fff;
+  margin-top: 50px;
+  text-align: right;  
+}
